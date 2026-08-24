@@ -1,32 +1,29 @@
-# OdontoCompany Belém — OPLINK (Multi-Links Oficial)
+# OPLINK — OdontoCompany Belém
 
-Canal oficial de multi-links e apresentação digital da unidade **OdontoCompany Belém**.
+OPLINK oficial de alta performance da unidade **OdontoCompany Belém** (Belém - PA), desenvolvido e mantido pela **OP7 Franchising**.
 
-## 📋 Informações da Unidade
-* **Responsável Técnico:** Dra. Pablyanne Guedes
-* **CRO:** CRO-PA 6288
-* **Telefone / WhatsApp:** (91) 98817-0024
-* **Endereço:** Avenida Tavares Bastos, 804, Marambaia, Belém/PA - CEP 66615-005
-* **Horários:** Segunda a Sexta: 08h às 19h | Sábado: 08h às 13h
+## 📌 Informações da Unidade
+- **Unidade:** OdontoCompany Belém
+- **Responsável Técnico:** Dra. Pablyanne Guedes (CRO-PA 6288)
+- **Cidade / UF:** Belém - PA
+- **WhatsApp Oficial:** (91) 98817-0024
+- **Site Oficial / LP:** [https://odc-franquados-belem-op7.vercel.app](https://odc-franquados-belem-op7.vercel.app)
+- **Instagram:** [@odontocompanymarambaia](https://www.instagram.com/odontocompanymarambaia/)
 
-## 🚀 Tecnologias
-* HTML5 Semântico & Moderno
-* CSS3 Puro (Custom Properties, Double-Bezel, Glassmorphism, Responsive Mobile-First)
-* JavaScript Vanilla (Carrossel Touch-Swipe, Live Status de Horários, Modais Acessíveis)
-* Zero Build Step (Compatível 100% com Vercel "Other" / Static Deploy)
+## ⚡ Stack Tecnológica & Performance
+- **Arquitetura:** Jamstack / Mobile-First Bio-Link 100% Estático (Zero JavaScript Framework Overhead)
+- **Engine:** HTML5 Semântico + CSS3 Moderno (Custom Properties, Backdrop Blur) + Vanilla JavaScript
+- **Ícones & Imagens:** Vetores SVG Matemáticos + WebP de Alta Compressão
+- **Acessibilidade & SEO:** OpenGraph, Twitter Cards, Schema.org JSON-LD (Dentist Specification)
+- **Hospedagem / Deploy:** Vercel (Preset: *Other*)
 
-## 📦 Como Rodar Localmente
-Basta abrir o arquivo `index.html` em qualquer navegador ou rodar um servidor web estático:
-
+## 🚀 Como Executar Localmente
 ```bash
-# Com Python
-python -m http.server 3000
-
-# Com Node / npx
+# Servir com qualquer servidor estático HTTP
 npx serve .
+# ou com Python
+python -m http.server 8080
 ```
 
-## 🌐 Deploy na Vercel
-1. Criar novo projeto na Vercel importando este repositório.
-2. Selecionar o Framework Preset: **Other**.
-3. Clicar em **Deploy**. O site estará no ar em segundos!
+---
+*© ODONTOCOMPANY BELÉM. Desenvolvido por OP7 Franchising.*
