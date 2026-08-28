@@ -109,20 +109,22 @@ function initLiveHours() {
   let statusText = "Fechado agora • Abre às 08:00";
 
   if (day >= 1 && day <= 5) {
-    // Segunda a Sexta: 08h às 19h
-    if (timeVal >= 8 && timeVal < 19) {
+    // Segunda a Sexta: 08:00 às 18:00
+    if (timeVal >= 8 && timeVal < 18) {
       isOpen = true;
-      statusText = "Aberto agora • Atendimento até 19:00";
+      statusText = "Aberto agora • Atendimento até 18:00";
     } else if (timeVal < 8) {
       statusText = "Fechado agora • Abre hoje às 08:00";
+    } else if (day === 5) {
+      statusText = "Fechado agora • Sábados alternados às 08:00";
     } else {
       statusText = "Fechado agora • Abre amanhã às 08:00";
     }
   } else if (day === 6) {
-    // Sábado: 08h às 13h
-    if (timeVal >= 8 && timeVal < 13) {
+    // Sábado: 08:00 às 12:00 (Sábados alternados)
+    if (timeVal >= 8 && timeVal < 12) {
       isOpen = true;
-      statusText = "Aberto agora • Atendimento até 13:00";
+      statusText = "Aberto agora (Sábados alternados) • Até 12:00";
     } else {
       statusText = "Fechado agora • Abre segunda às 08:00";
     }

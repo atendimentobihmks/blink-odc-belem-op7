@@ -659,14 +659,28 @@ body::before {
 .hours-table {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 8px;
 }
 
 .hours-row {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-size: 0.76rem;
   color: var(--text-muted);
+}
+
+.hours-day-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.hours-subtext {
+  font-size: 0.65rem;
+  font-weight: 500;
+  color: var(--text-soft);
+  letter-spacing: -0.01em;
 }
 
 .hours-row.closed {
@@ -681,6 +695,8 @@ body::before {
 .hours-time {
   font-weight: 700;
   color: var(--text-main);
+  text-align: right;
+  white-space: nowrap;
 }
 
 .hours-row.closed .hours-time {
