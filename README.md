@@ -4,7 +4,7 @@ OPLINK oficial de alta performance da unidade **OdontoCompany Belém** (Belém -
 
 ## 📌 Informações da Unidade
 - **Unidade:** OdontoCompany Belém
-- **Responsável Técnico:** Dra. Pablyanne Guedes (CRO-PA 6288)
+- **Responsável Técnico:** Dra. Thaisa S. Magalhães (CRO/SP 118582)
 - **Cidade / UF:** Belém - PA
 - **WhatsApp Oficial:** (91) 98817-0024
 - **Site Oficial / LP:** [https://odc-franquados-belem-op7.vercel.app](https://odc-franquados-belem-op7.vercel.app)

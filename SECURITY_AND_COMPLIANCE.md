@@ -1,7 +1,7 @@
 # Segurança, Privacidade e Conformidade LGPD
 
 ## Unidade: OdontoCompany Belém
-* **Responsável Técnico:** Dra. Pablyanne Guedes (CRO-PA 6288)
+* **Responsável Técnico:** Dra. Thaisa S. Magalhães (CRO/SP 118582)
 * **Endereço:** Avenida Tavares Bastos, 804, Marambaia, Belém/PA - CEP 66615-005
 * **Data de Implementação:** Agosto de 2026
 
